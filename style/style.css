@@ -214,6 +214,16 @@ h6 {
     padding: 20px;
 }
 
+#textpropos2 {
+    color: #5f6368;
+    margin: auto;
+    padding-bottom: 5px;
+    max-width: 1040px;
+}
+#propos2 {
+    padding: 20px;
+}
+
 @media only screen and (max-width: 411px) {
     #logo {
         display: inline-block;
@@ -619,7 +629,7 @@ section {
     }
 }
 
-#Presentation {
+#Presentation{
     background: url("../assets/fond.png");
     background-repeat: no-repeat;
     padding: 175px 0px 20px 0px;
@@ -643,7 +653,7 @@ section {
 }
 
 @media only screen and (max-width: 411px) {
-    #Presentation,
+    #Presentation,#Competences,
     #PresentationVisual {
         padding: 175px 0px 15px 0px;
     }
