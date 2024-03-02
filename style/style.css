@@ -564,6 +564,7 @@ section {
 #Competences {
     background: url("../assets/fond2.png");
     background-repeat: no-repeat;
+    padding: 25px 0px 20px 0px;
 }
 
 #competenceType {
@@ -634,6 +635,12 @@ section {
     background-repeat: no-repeat;
     padding: 175px 0px 20px 0px;
 }
+#Presentation2{
+    background: url("../assets/fond.png");
+    background-repeat: no-repeat;
+    padding: 175px 0px 20px 0px;
+    background-color: #f4f6fc;
+}
 #PresentationCompetence {
     background-repeat: no-repeat;
     padding: 20px 0px 15px 0px;
@@ -653,7 +660,7 @@ section {
 }
 
 @media only screen and (max-width: 411px) {
-    #Presentation,#Competences,
+    #Presentation,
     #PresentationVisual {
         padding: 175px 0px 15px 0px;
     }
@@ -703,4 +710,48 @@ section {
     height: 200px;
     border-radius: 25%;
     box-shadow: 15px 15px 20px #3754aa17, -10px -10px 20px #fff, 4px 4px 20px #ffffff80 inset, -10px -10px 20px #3754aa17;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px -10px; /* Adjustment for negative margin on cards */
+}
+
+.card {
+    padding: 20px;
+    flex: 1; /* Distribute space evenly between cards */
+    margin: 10px; /* Horizontal and Vertical space between cards */
+    border-radius: 15px; /* Rounded borders */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for all cards */
+    background-color: #fff; /* Background color for cards */
+}
+
+.card h3 {
+    border-bottom: 2px solid; /* Line under the title */
+    padding-bottom: 10px; /* Space under the title */
+    margin-bottom: 20px; /* Space before the list */
+}
+
+.card ul {
+    list-style: none; /* No bullets */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+}
+
+.card ul li {
+    padding: 5px 0; /* Space around list items */
+}
+
+.main-content {
+    background-color: var(--grey-bg);
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
